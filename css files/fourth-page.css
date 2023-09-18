@@ -1,0 +1,45 @@
+/* Add your CSS styles for the confirmation page here */
+.confirmation-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Background color for the container */
+    border: 2px solid gold; /* Golden border with 2px width */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+    margin: 20px auto; /* Center the container horizontally */
+    max-width: 400px; /* Maximum width of the container */
+}
+
+h2 {
+    font-size: 24px;
+    color: #670E10; /* Color for the header text */
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #670E10; /* Background color for the button */
+    color: gold; /* Text color for the button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: gold; /* Change background color on hover */
+    color: #670E10; /* Change text color on hover */
+}

@@ -1,0 +1,54 @@
+/* Add this CSS to your styles.css file */
+body {
+    background-color: #670E10; /* Background color */
+    color: gold; /* Font color */
+    font-family: Calligraphy, cursive; /* Font family */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+    max-width: 400px; /* Maximum width of the container */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: gold;
+    color: #670E10; /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition effect for hover */
+}
+
+button:hover {
+    background-color: #670E10; /* Background color on hover */
+    color: gold; /* Text color on hover */
+}

@@ -1,0 +1,65 @@
+/* Your CSS styles for the booking page go here */
+
+body {
+    background-color: #670E10;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    font-family: "CalligraphyFont", cursive;
+    font-size: 36px;
+    color: gold;
+}
+
+.header-line {
+    border: 2px solid gold;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-size: 18px;
+    color: white;
+}
+
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+button {
+    background-color: transparent;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: gold;
+    color: #670E10;
+}
+
+/* You can add more styles as needed */

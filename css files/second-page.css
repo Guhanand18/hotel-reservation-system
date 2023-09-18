@@ -1,0 +1,65 @@
+/* Add this CSS to your styles.css file */
+body {
+    background-color: #670E10; /* Background color */
+    color: gold; /* Font color */
+    font-family: Calligraphy, cursive; /* Font family */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-line {
+    border: 1px solid gold; /* Header line */
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.hotel-list {
+    width: 80%; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent background */
+    padding: 20px;
+    border: 1px solid gold; /* Gold border */
+    border-radius: 10px; /* Rounded edges */
+    margin-top: 20px; /* Space below the header */
+    font-color: black; /* Font color for hotel details */
+}
+
+/* Style for hotel cards - You can add more styles as needed */
+.hotel-card {
+    background-color: #670E10;
+    padding: 10px;
+    border: 1px solid gold; /* Gold border */
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Style for the "Book a Room" button */
+.book-button {
+    background-color: gold;
+    color: #670E10; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition effect for hover */
+}
+
+/* Hover effect for the button */
+.book-button:hover {
+    background-color: #670E10; /* Background color on hover */
+    color: gold; /* Text color on hover */
+}
